@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="author" content="Adriano Pina">
+    <title>Exibir o rosto no navegador!</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="icon" type="ico" href="img/favicon.ico">
+</head>
+<body>
+    <h1 class="titulo">Exibir o rosto no navegador</h1>
+    <p class="subtitulo">Desenvolvido por Adriano Pina</p>
+    <div id="videoContainer">
+        <video id="videoElement" autoplay></video>
+    </div>
+    <div class="controls">
+        <label for="widthRange">Largura:</label>
+        <input type="range" id="widthRange" min="100" max="1200" step="50" value="500"><!-- Largura da tela do webcam -->
+        <label for="heightRange">Altura:</label>
+        <input type="range" id="heightRange" min="100" max="550" step="50" value="400"><!-- Altura da tela do webcam -->
+        <label for="shapeSelect">Formato:</label>
+        <select id="shapeSelect">
+            <option value="square">Quadrado</option>
+            <option value="circle">Redondo</option>
+        </select>
+    </div>
+
+    <script src="JS/script.js"></script>
+
+
+</body>
+</html>
